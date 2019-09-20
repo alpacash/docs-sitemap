@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Sitemap.sh](README.md)
-* [Registration](https://cacheful.app/register)
+* [Registration](https://sitemap.sh/register)
 
 ## API reference
 
