@@ -34,7 +34,12 @@ Use `json_pp` to beautify JSON output from your command line. [Here's the manpag
 #### Beautify JSON output
 
 ```bash
-╰─$ echo '[{"key":"value"},{"key2": "value2"}]' | json_pp
+echo '[{"key":"value"},{"key2":"value2"}]' | json_pp
+```
+
+This should result into the following output.
+
+```javascript
 [
    {
       "key" : "value"
