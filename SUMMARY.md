@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Sitemap.sh](README.md)
 * [Registration](https://cacheful.app/register)
 
 ## API reference
