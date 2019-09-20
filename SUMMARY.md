@@ -5,7 +5,7 @@
 
 ## API reference
 
-* [Introduction](api-reference/introduction.md)
+* [Getting Started](api-reference/introduction.md)
 * [Projects](api-reference/projects.md)
 * [Locations](api-reference/locations.md)
 * [Sitemaps](api-reference/sitemaps.md)

@@ -4,7 +4,7 @@ description: >-
   way you like to.
 ---
 
-# Introduction
+# Getting Started
 
 ## API Authentication
 
