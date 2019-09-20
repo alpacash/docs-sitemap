@@ -160,7 +160,7 @@ The project key to identify the project.
 Project's locations successfully retrieved.
 {% endapi-method-response-example-description %}
 
-```
+```javascript
 [
   {
     "id": 2,
@@ -286,7 +286,7 @@ Your project's name.
 Successfully updated your project.
 {% endapi-method-response-example-description %}
 
-```
+```javascript
 { "message": "Successfully updated" }
 ```
 {% endapi-method-response-example %}
