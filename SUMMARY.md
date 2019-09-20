@@ -5,5 +5,6 @@
 ## API reference
 
 * [Projects](api-reference/projects.md)
-* [Untitled](api-reference/untitled.md)
+* [Locations](api-reference/locations.md)
+* [Sitemaps](api-reference/sitemaps.md)
 
