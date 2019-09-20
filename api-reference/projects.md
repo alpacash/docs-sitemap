@@ -25,12 +25,6 @@ This endpoint will provide all the projects you own.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-_Include your bearer token in the authorization header for every request!_
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
