@@ -6,67 +6,13 @@ description: >-
 
 # Projects
 
-{% api-method method="get" host="https://sitemap.sh/api" path="/projects" %}
-{% api-method-summary %}
-Retrieve all projects
-{% endapi-method-summary %}
-
-{% api-method-description %}
-This endpoint will provide all the projects you own.
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Projects successfully retrieved.
-{% endapi-method-response-example-description %}
-
-```javascript
-[
-  {
-    "user_id": 1,
-    "key": "ekajd98u12j",
-    "name": "example",
-    "primary_url": "https:\/\/www.example.com",
-    "status": "idle",
-    "enabled": 0,
-    "processed_at": null,
-    "created_at": "yyyy-mm-dd h:m:s",
-    "updated_at": "yyyy-mm-dd h:m:s",
-    "image_url": "https:\/\/www.gravatar.com\/avatar\/37ffc9301f7b2497941f6b8bdc3904db.jpg?s=200&d=identicon",
-    "last_run_date": "yyyy, mmm dd",
-    "last_run_time": "m:s",
-    "locations": [
-      {
-        "id": 2,
-        "project_id": 1,
-        "priority": null,
-        "change_frequency": null,
-        "last_modification_date": null,
-        "type": "exclude",
-        "url": "https:\/\/www.example.com\/contact-us",
-          "created_at": "created_at",
-          "updated_at": "created_at"
-        }
-      ]
-    }
-]
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
 {% api-method method="get" host="https://sitemap.sh/api" path="/projects/:key" %}
 {% api-method-summary %}
 Retrieve a project
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint will provide a specific endpoint you specify.
+This endpoint will provide a specific project you specify.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -122,6 +68,60 @@ Project successfully retrieved.
 
 ```javascript
 { "message": "Not found" }
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://sitemap.sh/api" path="/projects" %}
+{% api-method-summary %}
+Retrieve all projects
+{% endapi-method-summary %}
+
+{% api-method-description %}
+This endpoint will provide all the projects you own.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Projects successfully retrieved.
+{% endapi-method-response-example-description %}
+
+```javascript
+[
+  {
+    "user_id": 1,
+    "key": "ekajd98u12j",
+    "name": "example",
+    "primary_url": "https:\/\/www.example.com",
+    "status": "idle",
+    "enabled": 0,
+    "processed_at": null,
+    "created_at": "yyyy-mm-dd h:m:s",
+    "updated_at": "yyyy-mm-dd h:m:s",
+    "image_url": "https:\/\/www.gravatar.com\/avatar\/37ffc9301f7b2497941f6b8bdc3904db.jpg?s=200&d=identicon",
+    "last_run_date": "yyyy, mmm dd",
+    "last_run_time": "m:s",
+    "locations": [
+      {
+        "id": 2,
+        "project_id": 1,
+        "priority": null,
+        "change_frequency": null,
+        "last_modification_date": null,
+        "type": "exclude",
+        "url": "https:\/\/www.example.com\/contact-us",
+          "created_at": "created_at",
+          "updated_at": "created_at"
+        }
+      ]
+    }
+]
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
