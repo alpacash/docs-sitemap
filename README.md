@@ -19,7 +19,3 @@ while (awake()) { code(); }
 
 ![With &#x2764; from alpaca.sh](.gitbook/assets/1005360697-6-alpaca_-avatar_avatar.png)
 
-
-
-
-

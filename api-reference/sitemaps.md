@@ -107,3 +107,11 @@ The uuid to identify the specific sitemap you want to download.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% hint style="warning" %}
+**This endpoint is not protected.** You can easily access your sitemaps from any location, without an API token. So be careful with your sitemaps's uuid's, as it is the only information needed to request your generated sitemap file.
+{% endhint %}
+
+
+
+![](../.gitbook/assets/download.jpeg)
+
