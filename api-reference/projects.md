@@ -313,7 +313,7 @@ The key used to identify your project.
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="locations" type="array" required=true %}
-Your new locations. Use the same format they appear in for `/projects/:key/locations`
+Your new locations. Use the same format they appear in for retrieving locations.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
