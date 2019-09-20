@@ -6,14 +6,6 @@ description: >-
 
 # Projects
 
-{% hint style="info" %}
-**All authorization is done through a single API token.** You can generate and/or revoke an api token at any time. To manage your api tokens, log in to your account and navigate to your settings panel. You'll find the API tab in the left sidebar. Remember to include your bearer token in the **Authorization header** for every API request.
-{% endhint %}
-
-```javascript
-{ "Authorization": "Bearer: your-secure-bearer-token-here" }
-```
-
 {% api-method method="get" host="https://sitemap.sh/api" path="/projects" %}
 {% api-method-summary %}
 Retrieve all projects
